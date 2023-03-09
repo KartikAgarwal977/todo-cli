@@ -158,7 +158,6 @@
     "levn": "^0.4.1",
     "lilconfig": "^2.0.6",
     "lines-and-columns": "^1.2.4",
-    "lint-staged": "^13.1.2",
     "listr2": "^5.0.7",
     "locate-path": "^5.0.0",
     "lodash.merge": "^4.6.2",
@@ -262,7 +261,8 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.js": [
@@ -273,6 +273,9 @@
   "author": "kartik agarwal <kartikag977@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.35.0"
+    "eslint": "^8.35.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.2",
+    "pretty-quick": "^3.1.3"
   }
 }
